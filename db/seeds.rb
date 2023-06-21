@@ -5,3 +5,23 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+task_names = [
+  'Complete project proposal',
+  'Review client feedback',
+  'Prepare presentation slides',
+  'Test application functionality',
+  'Update documentation',
+  'Attend team meeting',
+  'Fix bug in login functionality',
+  'Write unit tests',
+  'Refactor code',
+  'Deploy application to production'
+]
+
+task_names.each do |task|
+  Task.create(
+    name: task,
+    completed: [false, true].sample
+  )
+end
