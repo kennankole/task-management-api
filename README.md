@@ -13,7 +13,12 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -50,11 +55,45 @@
 - **Create New Task**
 - **Edit A Task**
 - **Mark Task As Complete**
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 💻 Getting Started <a name="getting-started"></a>
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+```sh
+  gem install rails
+```
+
+In order to run this project you need:
+
+### Setup
+
+```sh
+  git clone https://github.com/kennankole/task-management-api.git
+```
+
+### Install
+
+```sh
+  cd task-management-api
+  bundle install
+```
+
+### Usage
+
+```sh
+  rails server
+```
+
+### Run tests
+
+```sh
+  rake rswag:specs:swaggerize
+```
+navigate to `/api-docs` on the browser to test the endpoints
 <!-- AUTHORS -->
+
 
 ## 👥 Authors <a name="authors"></a>
 
